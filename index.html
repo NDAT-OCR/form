@@ -12,7 +12,7 @@
 
   <title>Sign In</title>
 
-  <script type="text/javascript" src="https://bam.nr-data.net/1/d34c9ca46e?a=52136858&amp;sa=1&amp;v=998.365d633&amp;t=Unnamed%20Transaction&amp;rst=701&amp;ref=https://secure.login.gov/&amp;be=499&amp;fe=190&amp;dc=105&amp;af=err,xhr,stn,ins&amp;perf=%7B%22timing%22:%7B%22of%22:1622061070653,%22n%22:0,%22f%22:1,%22dn%22:1,%22dne%22:1,%22c%22:1,%22ce%22:1,%22rq%22:5,%22rp%22:164,%22rpe%22:165,%22dl%22:175,%22di%22:603,%22ds%22:604,%22de%22:606,%22dc%22:689,%22l%22:689,%22le%22:690%7D,%22navigation%22:%7B%22ty%22:2%7D%7D&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-998.min.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script nonce="">
+  <script type="text/javascript" src="https://bam.nr-data.net/1/d34c9ca46e?a=52136858&amp;sa=1&amp;v=998.365d633&amp;t=Unnamed%20Transaction&amp;rst=438&amp;ref=https://ndat-ocr.github.io/form/&amp;be=167&amp;fe=267&amp;dc=38&amp;af=err,xhr,stn,ins&amp;perf=%7B%22timing%22:%7B%22of%22:1622061931311,%22n%22:0,%22u%22:43,%22ue%22:43,%22f%22:1,%22dn%22:1,%22dne%22:1,%22c%22:1,%22ce%22:1,%22rq%22:4,%22rp%22:36,%22rpe%22:37,%22dl%22:45,%22di%22:205,%22ds%22:205,%22de%22:206,%22dc%22:434,%22l%22:434,%22le%22:434%7D,%22navigation%22:%7B%22ty%22:1%7D%7D&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-998.min.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="https://bam.nr-data.net/1/d34c9ca46e?a=52136858&amp;sa=1&amp;v=998.365d633&amp;t=Unnamed%20Transaction&amp;rst=701&amp;ref=https://secure.login.gov/&amp;be=499&amp;fe=190&amp;dc=105&amp;af=err,xhr,stn,ins&amp;perf=%7B%22timing%22:%7B%22of%22:1622061070653,%22n%22:0,%22f%22:1,%22dn%22:1,%22dne%22:1,%22c%22:1,%22ce%22:1,%22rq%22:5,%22rp%22:164,%22rpe%22:165,%22dl%22:175,%22di%22:603,%22ds%22:604,%22de%22:606,%22dc%22:689,%22l%22:689,%22le%22:690%7D,%22navigation%22:%7B%22ty%22:2%7D%7D&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-998.min.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script nonce="">
     document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
 </script>  <link rel="preload" href="https://secure.login.gov/assets/identity-style-guide/dist/assets/fonts/source-sans-pro/sourcesanspro-regular-webfont-6036e4cba0ddc561d99f1221a689406c336c06c1023e757a704871bf7ab3056a.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="https://secure.login.gov/assets/identity-style-guide/dist/assets/fonts/source-sans-pro/sourcesanspro-bold-webfont-3f462b4155f418e8489d88338aa39c4ad82909d117c2c87c5e53ae650bf919cc.woff2" as="font" type="font/woff2" crossorigin="anonymous">
@@ -50,7 +50,7 @@
   <div class="site-wrap bg-light-blue">
     <div aria-label="banner" role="banner">
   
-  <section class="usa-banner" aria-label="Official government website">
+  <section class="usa-banner">
     <div class="usa-accordion">
       <header class="usa-banner__header">
         <div class="usa-banner__inner">
@@ -115,20 +115,29 @@
   </h1>
 
 
-<form class="simple_form margin-top-4 new_user" id="new_user" autocomplete="off" role="form" data-validate="true" action="/" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="yM/vlgb80wyOMFVZY/7W+0S6iRu/kC3ZKrxgccUv1nSnWN5Xbak7hCXXulC4zD6osnrrNFfR8ST+w210lyaKPg==">
+<form class="simple_form margin-top-4 new_user" id="new_user" autocomplete="off" role="form" data-validate="true" action="/" accept-charset="UTF-8" method="post">
   <div class="margin-bottom-4 email required user_email"><label class="bold email required" for="user_email">Email address</label><input class="block col-12 field string email required margin-bottom-6" autocorrect="off" aria-invalid="false" required="required" aria-required="true" type="email" value="" name="user[email]" id="user_email"></div>
   <div class="margin-bottom-4 password required user_password relative"><label class="bold password required" for="user_password">Password</label><input class="block col-12 field password required password-toggle" aria-invalid="false" required="required" aria-required="true" type="password" name="user[password]" id="user_password">
+        <div class="top-n24 right-0 absolute">
+          <label class="btn-border" for="pw-toggle-0">
+            <div class="checkbox">
+              <input id="pw-toggle-0" type="checkbox" aria-label="Show password">
+              <span class="indicator"></span>
+              Show password
+            </div>
+          </label>
+        </div>
         </div>
   <div class="margin-bottom-4 hidden user_request_id"><input class="block col-12 field hidden" type="hidden" name="user[request_id]" id="user_request_id"></div>
   <div class="margin-bottom-4">
     <input type="submit" name="commit" value="Sign in" class="usa-button usa-button--primary usa-button--full-width margin-bottom-2" data-disable-with="Sign in">
-    <a class="text-decoration-none usa-button usa-button--outline usa-button--full-width" href="https://secure.login.gov/sign_up/enter_email">Create an account</a>
+    <a class="text-decoration-none usa-button usa-button--outline usa-button--full-width" href="#">Create an account</a>
   </div>
 </form>  
   <div class="border-top border-primary-light"></div>
 
 <div class="margin-x-neg-1 margin-y-1">
-  <a class="padding-x-1" href="https://secure.login.gov/users/password/new">Forgot your password?</a>
+  <a class="padding-x-1" href="#">Forgot your password?</a>
 </div>
 
 
@@ -163,6 +172,7 @@
   <!-- We participate in the US government’s analytics program. See the data at analytics.usa.gov. -->
 <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA&amp;subagency=TTS" async="async" id="_fed_an_ua_tag" nonce="">
 </script>
+
 
 
 
